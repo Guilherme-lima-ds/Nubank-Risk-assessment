@@ -4,7 +4,7 @@
 
 Uma das maiores preocupações das empresas hoje em dia e a do risco de inadimplência do cliente, que significa que a empresa sede um limite x para o cliente(empréstimo, limite no cartão de crédito, financiamento de casa e/ou carro, etc..) sendo que ele não e confiavel, e gerando assim prejuizos para empresas pois o clientes não vai pagar.
 
-Por isso e muito comum ouvir que as empresas credoras operam em risco, pois não há uma garantia absoluta de que haverá o pagamento do limite cedido, por esssa razão que as empresas vem investimento muito em análise de risco, que consiste em uma analise previa de um banco de dados que cruza as informações do perfil do cliente com o historico de pagamento dele.
+Por isso e muito comum ouvir que as empresas credoras operam em risco, pois não há uma garantia absoluta de que haverá o pagamento do limite cedido, por essa razão que as empresas vem investimento muito em análise de risco, que consiste em uma analise previa de um banco de dados que cruza as informações do perfil do cliente com o historico de pagamento dele.
 
 Tendo acesso a esse banco de dados, possibilita que a empresa consiga avaliar o cliente antes mesmo dele ter o primeiro contato com a instituição, pois assim já previne muitas dores de cabeça.
 
@@ -87,32 +87,22 @@ Real VS Predito, como podemos notar o modelo teve uma excelente perfomance.
 ![image](https://user-images.githubusercontent.com/92899088/177816928-7bb810b8-cf3a-4c2f-bef1-2f0081072ee6.png)
 
 Métricas:
+
 ![image](https://user-images.githubusercontent.com/92899088/177820742-bc490d3c-9599-437c-8a40-4a5114aa3a0b.png)
 
-## Conclusão Final: 
+## Conclusão Final:
+Como podemos notar olhando as métricas acima, eu consegui atingir meu primeiro objetivo do projeto, criando um modelo com mais de 70% de precisão, so que nem tudo foi concluido 100% pois o segundo objetivo de criação de um WebApp não foi executado com exito, pelo fato de haver colunas com criptogria na base dados, claro isso e comum como e um projeto da nubank com certeza eles não podem vazar informações dos seus clientes, mas efim... mesmo assim estou sadisfeito com o projeto foi um aprendizado enorme pois tive que aplicar diversas tecnicas de análise, limpar dados, excluir valor extremos etc.. tudo feito em ciclos, então estou muito sadisfeito com o projeto e estou com o sentimento de dever cumprido.
 
 
+## Proximos Passos:
 
+Como o projeto foi feito em ciclos, isso abre uma grande oportunidade de melhoria pois caso alguem cientista de dados queira fazer alguma modicação ele não precisa rodar todo o codigo que pode demorar varios e varios minutos ou até horas, ele apenas vai no ciclo que ele acredita que possa melhorar e faz melhorias.
 
+Algumas das melhorias que com certeza podem ser feitas
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  - Criação de um modelo melhor: Obter mais dados para treinar o modelo.
+  - WebApp: Com as informações sem criptogria seria possivel colocar o modelo em produção.
+  - Melhoria em cada ciclo: Para todos os ciclos existem processos mais avançados que podem ser executados, como criação de mais features, limpeza melhor da base, preechimento de valores NA feitos de uma forma mais avançada, etc... o ponto e que tudo depende da pessoa que pediu o projeto, se para ela 87% de precisão está bom então e fim do projeto e partiu proximo caso não refazemos o ciclo.
 
 
 ## Fonte de dados
