@@ -31,7 +31,7 @@ Como o projeto vai ser resolvido? quais ferramentas vou usar? O que sera entregu
 
 1.O que sera entregue no fim do projeto?
 Tenho dois objetivos para quando chegar no fim do projeto que são:
-  - Ter um modulo com mais de 70% de acúracidade
+  - Ter um modulo com mais de 70% de precisão.
   - Ter um WebApp que receba
       -- Input: Dados do Cliente
       -- Output: Previsão de inadimplencia.
@@ -46,9 +46,50 @@ Tenho dois objetivos para quando chegar no fim do projeto que são:
 Para resolver esse problema eu vou criar um modelo de Machine Learning que consiga indentificar quais são os clientes com maiores chances de serem inadimplentes, o modelo vai pedir as informações sobre o cliente e no fim retorna a classificação dele, para fazer isso será necessario passar por diversos ciclos para indentificação de problemas, pois cada problema dependendo da proporção vai gerar um novo ciclo, por exemplo certamente vamos está lidando com dados desbalaceandos, estão vamos precisa de um ciclo de balanceamento de dados.
 
 
+## Validação de Hipoteses:
+
+H1:Clientes com renda menor de 80 mil reais por ano representa 30% dos meus clientes.
+FALSA: Na verdade clientes com renda menor de 80 MIL REPRESENTAM 140% DOS MEUS CLIENTES.
+
+![image](https://user-images.githubusercontent.com/92899088/177819916-918473e7-2033-4cd2-b615-b21be5d19ab2.png)
+
+
+H2:O numero de contas criadas aumenta 30% depois das 7 horas da noite.
+FALSA: O número de contas criadas DIMINUI DEPOIS DAS 7 HORAS. diminuição de 15 %.
+
+![image](https://user-images.githubusercontent.com/92899088/177820088-bac61183-8cfa-4527-9dd1-3f5a3e5e9278.png)
+
+
+H3:O canal de Marketing Website representa 40% das pessoas da minha base, em comparação com todos os outros.
+FALSA: O canal de Website representa 32% dos meus clientes na base e não 40%.
+
+![image](https://user-images.githubusercontent.com/92899088/177820145-226c4f1e-3376-416d-8028-634ac3a880cb.png)
+
+H4:Pessoas da classe média possuem limite de crédito 30% maior ou mais do que pessoas da classe baixa, na média.
+VERDADEIRA: Clientes que considerei da classe média são a maioria esmagadora dos meus clientes, então a hipotese É VERDADEIRA POIS O LIMITE MÉDIO DE CREDITO AUMENTA 210% PARA CLIENTES DA CLASSE MÉDIA.
+
+![image](https://user-images.githubusercontent.com/92899088/177820217-f9da9464-c5f6-4688-ab1f-716d135f6367.png)
+
+
+
+H5:Clientes que passam menos de 200 minutos no funil de vendas, possuem o limite de credito 20% maior ou mais que os outros, na média.
+FALSA: Clientes que passam menos de 200 minutos no funil de vendas possuem UM LIMITE DE CREDITO 32% MENOR DO QUE OS OUTROS CLIENTES NA MEDIA.
+
+![image](https://user-images.githubusercontent.com/92899088/177820287-ecb380dd-53af-4ff2-811b-293be810db0c.png)
+
+
+## Resultado Financeiros
+Os dados não continha quanto cada cliente representa para nubank e nem o valor do juros conforme o valor do crédito então não foi possivel extrair valores financeiros.
+
+
 ## Modelo de Machine Learning Perfomance:
+Real VS Predito, como podemos notar o modelo teve uma excelente perfomance.
 ![image](https://user-images.githubusercontent.com/92899088/177816928-7bb810b8-cf3a-4c2f-bef1-2f0081072ee6.png)
 
+Métricas:
+![image](https://user-images.githubusercontent.com/92899088/177820742-bc490d3c-9599-437c-8a40-4a5114aa3a0b.png)
+
+## Conclusão Final: 
 
 
 
