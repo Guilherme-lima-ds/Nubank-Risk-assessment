@@ -88,7 +88,7 @@ Real VS Predito, como podemos notar o modelo teve uma excelente perfomance.
 
 Métricas:
 
-![image](https://user-images.githubusercontent.com/92899088/177820742-bc490d3c-9599-437c-8a40-4a5114aa3a0b.png)
+![image](https://user-images.githubusercontent.com/92899088/178151540-fb1b527c-117e-4dea-b0a4-854f355d2b7b.png)
 
 ## Conclusão Final:
 Como podemos notar olhando as métricas acima, eu consegui atingir meu primeiro objetivo do projeto, criando um modelo com mais de 70% de precisão, so que nem tudo foi concluido 100% pois o segundo objetivo de criação de um WebApp não foi executado com exito, pelo fato de haver colunas com criptogria na base dados, claro isso e comum como e um projeto da nubank com certeza eles não podem vazar informações dos seus clientes, mas efim... mesmo assim estou sadisfeito com o projeto foi um aprendizado enorme pois tive que aplicar diversas tecnicas de análise, limpar dados, excluir valor extremos etc.. tudo feito em ciclos, então estou muito sadisfeito com o projeto e estou com o sentimento de dever cumprido.
